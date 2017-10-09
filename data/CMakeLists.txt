@@ -1,0 +1,5 @@
+install(FILES com.github.georgekap1an.chores.desktop DESTINATION share/applications)
+install(FILES com.github.georgekap1an.chores.gschema.xml DESTINATION share/glib-2.0/schemas)
+install(FILES com.github.georgekap1an.chores.appdata.xml DESTINATION share/metainfo)
+install(DIRECTORY icons DESTINATION share)
+#install (CODE "execute_process(COMMAND glib-compile-schemas /usr/share/glib-2.0/schemas)")

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Chores
+GenericName=To-Do List Utility
+Comment=Manage Your Chores
+Categories=Utility;
+Exec=com.github.georgekap1an.chores
+Icon=com.github.georgekap1an.chores
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=com.github.georgekap1an.chores
+Keywords=Chores;To-Do;
+X-GNOME-UsesNotifications=false

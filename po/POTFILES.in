@@ -1,0 +1,8 @@
+src/choredialog.cpp
+src/choredialog.h
+src/chorelist.cpp
+src/chorelist.h
+src/main.cpp
+src/mainwindow.cpp
+src/mainwindow.h
+data/chores.desktop
