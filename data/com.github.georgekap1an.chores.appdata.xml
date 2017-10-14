@@ -3,13 +3,29 @@
 <component type="desktop">
   <id>com.github.georgekap1an.chores.desktop</id>
   <metadata_license>CC0</metadata_license>
+  <developer_name>Jonathan Hebert</developer_name>
   <name>Chores</name>
   <summary>Keep track of recurring chores.</summary>
   <description>
     <p>Chores is a simple utility to help track progress on recurring chores.  It has some overlap with calendar or to-do lists, but is focused on tasks which are required periodically, but aren't tied to a specific time on a calendar.</p>
+    <p>When you add a chore to the list, you specify it's first due date and it's required frequency.  Then, whenever you mark a chore complete, t will update the chore to reflect the next due date (based on frequency), and push it to the bottom of the list.</p>
   </description>
+  <screenshots>
+     <screenshot type="default">
+         <image type="source">https://raw.githubusercontent.com/wiki/georgekap1an/chores/screenshots/main.png</image>
+         <caption>Chore List</caption>
+     </screenshot>
+     <screenshot>
+         <image>https://raw.githubusercontent.com/wiki/georgekap1an/chores/screenshots/dialog.png</image>
+         <caption>Chore Details</caption>
+     </screenshot>
+     <screenshot>
+         <image>https://raw.githubusercontent.com/wiki/georgekap1an/chores/screenshots/search.png</image>
+         <caption>Find a Chore</caption>
+     </screenshot>
+  </screenshots>
   <custom>
-     <value key="x-appcenter-color-primary">#603461</value>
+     <value key="x-appcenter-color-primary">rgb(130, 67, 9)</value>
      <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
      <value key="x-appcenter-suggested-price">1</value>
   </custom>
