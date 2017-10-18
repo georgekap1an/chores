@@ -5,7 +5,7 @@
   <metadata_license>CC0</metadata_license>
   <developer_name>Jonathan Hebert</developer_name>
   <name>Chores</name>
-  <summary>Keep track of recurring chores.</summary>
+  <summary>Keep track of recurring chores</summary>
   <description>
     <p>Chores is a simple utility to help track progress on recurring chores.  It has some overlap with calendar or to-do lists, but is focused on tasks which are required periodically, but aren't tied to a specific time on a calendar.</p>
     <p>When you add a chore to the list, you specify it's first due date and it's required frequency.  Then, whenever you mark a chore complete, t will update the chore to reflect the next due date (based on frequency), and push it to the bottom of the list.</p>
